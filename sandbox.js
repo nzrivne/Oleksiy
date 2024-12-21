@@ -14,4 +14,4 @@ const stay = document.getElementById('hidden-stay');
 hiddenButton.addEventListener('mouseover', () => hidden.style.display = "flex");
 stay.addEventListener('mouseover', () => hidden.style.display = "flex");
 hidden.addEventListener('mouseleave', () => hidden.style.display = "none");
-go.addEventListener('scroll', () => hidden.style.display = "none");
+go.addEventListener('click', () => hidden.style.display = "none");
