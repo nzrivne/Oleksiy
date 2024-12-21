@@ -15,7 +15,7 @@ hiddenButton.addEventListener('mouseover', () => hidden.style.display = "flex");
 stay.addEventListener('mouseover', () => hidden.style.display = "flex");
 hidden.addEventListener('mouseleave', () => hidden.style.display = "none");
 
-function mOver(obj) {
+function mOver() {
     const hidden = document.getElementById('hidden-menu');
     hidden.style.display = "none";
   }
